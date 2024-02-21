@@ -12,7 +12,7 @@
 ::before,
 ::after {
   box-sizing: border-box;
-  direction: rtl;
+  direction: inherit;
   /* 1 */
   border-width: 0;
   /* 2 */
