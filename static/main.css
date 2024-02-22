@@ -12,7 +12,9 @@
 ::before,
 ::after {
   box-sizing: border-box;
-  direction: inherit;
+  /* Auto direction for text */
+  text-align: start;
+  unicode-bidi: plaintext;
   /* 1 */
   border-width: 0;
   /* 2 */
